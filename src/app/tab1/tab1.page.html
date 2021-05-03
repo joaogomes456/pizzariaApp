@@ -1,5 +1,5 @@
-<ion-header [translucent]="true">
-  <ion-toolbar color="danger shade">
+<ion-header>
+  <ion-toolbar class="ion-text-center" color="danger shade">
     <ion-title>
       Pizzas
     </ion-title>
@@ -7,5 +7,78 @@
 </ion-header>
 
 <ion-content [fullscreen]="true" color="light shade">
+  <ion-searchbar placeholder="Buscar Pizzas"></ion-searchbar>
+
+  <ion-item lines="none">
+    <ion-thumbnail slot="start">
+      <img src="https://pizzariadesucesso.com/wp-content/uploads/2018/11/images-4-2.jpeg">
+    </ion-thumbnail>
+    <ion-label>
+      <div class="item-pizza ion-text-wrap">
+        <h1>Marguerita</h1>
+        <p>Massa Classica, Mussarela, Tomate e Manjericão</p>
+      </div>
+    </ion-label>
+    <ion-badge slot="end">
+      <div class="item-preco">
+        <p class="moeda">R$</p>
+        <p class="preco">20.00</p>
+      </div>
+    </ion-badge>
+  </ion-item>
+
+  <ion-item lines="none">
+    <ion-thumbnail slot="start">
+      <img src="https://i.ytimg.com/vi/2y8cGZSmxMY/maxresdefault.jpg">
+    </ion-thumbnail>
+    <ion-label>
+      <div class="item-pizza ion-text-wrap">
+        <h1>Frango</h1>
+        <p>Massa Classica, Molho Classico, Frango, Milho e Orégano</p>
+      </div>
+    </ion-label>
+    <ion-badge slot="end">
+      <div class="item-preco">
+        <p class="moeda">R$</p>
+        <p class="preco">15.00</p>
+      </div>
+    </ion-badge>
+  </ion-item>
+
+  <ion-item lines="none">
+    <ion-thumbnail slot="start">
+      <img src="https://img.itdg.com.br/tdg/images/recipes/000/155/954/102994/102994_original.jpg?w=1200">
+    </ion-thumbnail>
+    <ion-label>
+      <div class="item-pizza ion-text-wrap">
+        <h1>Brócolis com Bacon</h1>
+        <p>Massa Classica, Molho Classico, Mussarela, Bacon e Brócolis</p>
+      </div>
+    </ion-label>
+    <ion-badge slot="end">
+      <div class="item-preco">
+        <p class="moeda">R$</p>
+        <p class="preco">25.00</p>
+      </div>
+    </ion-badge>
+  </ion-item>
+
+  <ion-item lines="none">
+    <ion-thumbnail slot="start">
+      <img src="https://i.ytimg.com/vi/qSxmiDlDLt4/maxresdefault.jpg">
+    </ion-thumbnail>
+    <ion-label>
+      <div class="item-pizza ion-text-wrap">
+        <h1>Calabresa</h1>
+        <p>Massa Classica, Molho Classico, Calabresa, Cebola e Azeitona</p>
+      </div>
+    </ion-label>
+    <ion-badge slot="end">
+      <div class="item-preco">
+        <p class="moeda">R$</p>
+        <p class="preco">20.00</p>
+      </div>
+    </ion-badge>
+  </ion-item>
 
 </ion-content>
